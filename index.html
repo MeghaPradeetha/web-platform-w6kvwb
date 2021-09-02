@@ -1,0 +1,38 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <form action="" name="quiz" id="quiz">
+    <ol>
+      <li>
+        <h4>Little interest or pleasure in doing things</h4>
+        <ul>
+          <li><input type="radio" value="1" name="q1" id="1"> Not at all</li>
+          <li><input type="radio" value="2" name="q1" id="1"> Several days</li>
+          <li><input type="radio" value="3" name="q1" id="1"> More than half of the days</li>
+          <li><input type="radio" value="4" name="q1" id="1"> Nearly every day</li>
+        </ul>
+      </li>
+      <li>
+        <h4>Little interest or pleasure in doing things</h4>
+        <ul>
+          <li><input type="radio" value="1" name="q2"> Not at all</li>
+          <li><input type="radio" value="2" name="q2"> Several days</li>
+          <li><input type="radio" value="3" name="q2"> More than half of the days</li>
+          <li><input type="radio" value="4" name="q2"> Nearly every day</li>
+        </ul>
+      </li>
+    </ol>
+  </form>
+  <div class="container">
+    <button onclick="displayRadioValue()" class="btn btn-primary"> Analyze</button>
+    <br>
+    <div id="result"></div>
+    <div id="test"></div>
+</body>
+
+</html>
